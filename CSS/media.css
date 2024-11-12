@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+
+    
+    .scroll-down {
+        text-align: center;
+        margin-top: 250px;
+        color: #fff;
+      }
+   
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .nav1 {
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .Logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .nav3 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    .navbtn {
+        margin-right: 80px;
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        background-color: #1b1b1b;
+        padding: 10px 0;
+        z-index: 100;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    a:hover {
+        background-color: #333;
+    }
+
+    #seccion_inicio {
+        height: 120vh;
+        
+    }
+
+    #seccion_descargas {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .contenedor-juegos {
+        gap: 20px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .juegos {
+        width: 80%;
+        margin: 0;
+    }
+
+    .titulodescargas {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
