@@ -51,9 +51,10 @@ nav {
 }
 .navbtn{
   display: none;
-  z-index: -100;
 }
-
+button{
+  display: none;
+}
 .nav-list {
   list-style: none;
   display: flex;
