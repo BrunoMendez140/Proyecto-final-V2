@@ -22,8 +22,9 @@
     }
 
     .Logo {
-        width: 100px;
+        width: 200px;
         height: auto;
+        margin-left: 10px;
     }
 
     .nav2 {

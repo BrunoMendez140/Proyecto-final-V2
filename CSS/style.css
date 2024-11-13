@@ -49,6 +49,9 @@ nav {
   justify-content: flex-end;
   width: 33vw;
 }
+.navbtn{
+  display: none;
+}
 
 .nav-list {
   list-style: none;
